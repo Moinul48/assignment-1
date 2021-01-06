@@ -1,0 +1,286 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul, ol, dl{
+    list-style-type: none;
+}
+body{
+
+    font-family: 'Raleway', sans-serif;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.w_25{
+    width: 25%;
+}
+.w_33{
+    width: 33.3333%;
+}
+.w_50{
+    width: 50%;
+}
+
+
+/*menu part css*/
+
+#main_menu{
+    padding: 30px;
+    background-color: #555555;
+}
+
+.menu{
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+    padding-right: 18px;
+}
+
+.menu ul li a{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;   
+}
+
+/*about part css*/
+
+#intro{
+    background-color:gainsboro;
+    padding-bottom: 40px;
+}
+.intro_me{
+    width:50%;
+    padding: 50px;
+}
+.intro_me h2{
+    text-transform: uppercase;
+    color:blue;
+    font-size: 50px;
+    line-height: 50px;
+}
+.intro_me .highlight {
+    color:orangered;
+}
+.intro_me p{
+    text-align:justify;
+    padding: 30px 0px;
+}
+.intro_me a{
+    background-color: orange;
+    background-image: linear-gradient(45deg, lightSalmon,tomato);
+    color: white;
+    font-weight: 700;
+    padding: 15px 30px;
+    border-radius: 5px;
+
+}
+.profile_pic{
+    width:50%;
+    text-align: center;
+}
+
+/*about paryt css*/
+#about{
+    background-color: cadetblue;
+    padding-bottom: 40px;
+}
+.about_pic{
+    width:50%;
+    text-align: center;
+    align-items: center;
+}
+.about_me{
+    width:50%;
+    padding:50px;
+}
+.about_me h2{
+    text-transform: uppercase;
+    color:blue;
+    font-size: 50px;
+}
+.about_me p{
+    text-align:justify;
+    padding: 30px 0px;
+}
+.about_me a{
+    background-color: orange;
+    background-image: linear-gradient(45deg, lightSalmon,tomato);
+    color: white;
+    font-weight: 700;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+/*service part css*/
+
+#services{
+    background: #f1f1f1;
+    width:100%;
+    padding: 40px 20px 100px;
+}
+#services h2{
+    text-transform: uppercase;
+    color:blue;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+#services span{
+    color:orangered;
+}
+.service_available{
+    border-right: 1px solid #dddddd;
+}
+.border_rig_remove{
+    border-right: none;
+}
+
+.service_available h3{
+    color: #222222;
+}
+
+.service_available h3{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin: auto;
+    padding-top: 32px;
+}
+.service_available h3:hover{
+    color: #de4644;
+}
+.service_available p{
+    text-align: left;
+    padding: 30px 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #444444;
+}
+
+/*work_inquary part css */
+.blank_div{
+    width:20%;
+}
+.work_inq{
+    width:60%;
+    height: 200px;
+    background: url(images/Group_33094_1.png);
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+}
+.work_inq h2{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    padding-left: 20px;
+    display: inline-block;
+}
+.work_inq p{
+    display: inline-block;
+    text-align: right;
+    margin-left: 200px;
+}
+.work_inq a{
+    background-color: orange;
+    background-image: linear-gradient(45deg, lightSalmon,tomato);
+    color: white;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+/*Review part css*/
+
+#review_head{
+    padding: 90px 20px 40px;
+}
+.review_header{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px
+}
+.review_header h2{
+    font-size: 40px;
+    font-weight: 500;
+    color:teal;
+}
+
+.review_details{
+    padding-top: 60px;
+    width: 100%;
+}
+.review_right,
+.review_left{
+    width: 570px;
+}
+.review_left{
+    margin-right: 30px;
+}
+.rev_img{
+    width: 30%;
+}
+.speech{
+    width: 70%;
+}
+.speech h3,
+.speech h2{
+    font-weight: 500;
+    color: gray;
+    text-transform: capitalize;
+}
+.speech h2{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.speech h3{
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.speech p{
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 14px;
+    color: rgb(71, 66, 66);
+    text-align: justify;
+    line-height: 2;
+}
+
+/*contact part css*/
+#contact{
+    background-color: #353535;
+    padding: 65px 0 40px;
+}
+.contact_me{
+    width: 100%;
+    text-align: center;
+}
+.contact_me h3{
+    color: #f1f1f1ff;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.contact_me a{
+    font-size: 60px;
+    font-weight: 700;
+    color:indigo;
+}
+.link{
+    padding-top:20px;
+    width:100%
+}
+.link_blank_div{
+    width:42%;
+}
+.link_logo{
+    width: 15%;
+    align-items: center;
+}
